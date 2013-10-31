@@ -33,11 +33,8 @@ GEM
       rubysl-thread (~> 2.0)
       rubysl-tracer (~> 2.0)
     rubysl-mathn (2.0.0)
-    rubysl-optparse (2.0.1)
-      rubysl-shellwords (~> 2.0)
     rubysl-readline (2.0.2)
     rubysl-rexml (2.0.1)
-    rubysl-shellwords (2.0.0)
     rubysl-thread (2.0.2)
     rubysl-tracer (2.0.0)
     stringex (2.1.0)
@@ -55,6 +52,5 @@ DEPENDENCIES
   rake (~> 10.1)
   rubysl-enumerator
   rubysl-irb
-  rubysl-optparse
   rubysl-rexml
   stringex (~> 2.1)

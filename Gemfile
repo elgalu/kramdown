@@ -6,6 +6,5 @@ gemspec
 platform :rbx do
   gem 'rubysl-enumerator'
   gem 'rubysl-rexml'
-  gem 'rubysl-optparse'
   gem 'rubysl-irb'
 end
