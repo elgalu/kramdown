@@ -68,7 +68,6 @@ sudo apt-get install tidy #on Ubuntu
 * The `latex` binary needs to be installed for the latex-compilation tests to work.
   ```sh
   sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra #on Ubuntu
-  sudo apt-get install texlive-full
   ```
 
 ## License
