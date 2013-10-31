@@ -1,5 +1,10 @@
 # kramdown
 
+[![Build Status][BS img]][Build Status]
+
+[Build Status]: https://travis-ci.org/elgalu/kramdown
+[BS img]: https://travis-ci.org/elgalu/kramdown.png
+
 ## Readme first!
 
 kramdown was originally licensed under the GPL until the 1.0.0 release. However, due to the many
@@ -56,8 +61,15 @@ Just clone the git repository as described in **doc/installation.page** and you 
 probably want to install `rake` so that you can use the provided rake tasks. Aside from that:
 
 * The `tidy` binary needs to be installed for the automatically derived tests to work.
-* The `latex` binary needs to be installed for the latex-compilation tests to work.
+```sh
+sudo apt-get install tidy #on Ubuntu
+```
 
+* The `latex` binary needs to be installed for the latex-compilation tests to work.
+  ```sh
+  sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra #on Ubuntu
+  sudo apt-get install texlive-full
+  ```
 
 ## License
 
