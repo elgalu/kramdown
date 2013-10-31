@@ -101,7 +101,7 @@ if defined?(Webgen) && defined?(RDoc::Task)
 end
 
 tt = Rake::TestTask.new do |test|
-  test.warning = false
+  test.warning = !ENV['TRAVIS']
   test.libs << 'test'
   test.test_files = FileList['test/test_*.rb']
 end
